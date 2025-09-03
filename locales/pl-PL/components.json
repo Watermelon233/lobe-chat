@@ -1,4 +1,9 @@
 {
+  "ArgsInput": {
+    "addArgument": "Dodaj parametr",
+    "argumentPlaceholder": "Parametr {{index}}",
+    "enterFirstArgument": "Wprowadź pierwszy parametr..."
+  },
   "DragUpload": {
     "dragDesc": "Przeciągnij pliki tutaj, aby przesłać wiele obrazów.",
     "dragFileDesc": "Przeciągnij obrazy i pliki tutaj, aby przesłać wiele obrazów i plików.",
@@ -68,13 +73,26 @@
   "GoBack": {
     "back": "Wróć"
   },
+  "HtmlPreview": {
+    "actions": {
+      "download": "Pobierz",
+      "preview": "Podgląd"
+    },
+    "iframeTitle": "Podgląd HTML",
+    "mode": {
+      "code": "Kod",
+      "preview": "Podgląd"
+    },
+    "title": "Podgląd HTML"
+  },
   "ImageUpload": {
     "actions": {
-      "changeImage": "Kliknij, aby zmienić obraz"
+      "changeImage": "Kliknij, aby zmienić obraz",
+      "dropMultipleFiles": "Nie obsługujemy przesyłania wielu plików jednocześnie, używany będzie tylko pierwszy plik"
     },
     "placeholder": {
       "primary": "Dodaj obraz",
-      "secondary": "Kliknij, aby przesłać"
+      "secondary": "Kliknij lub przeciągnij, aby przesłać"
     }
   },
   "KeyValueEditor": {
@@ -109,7 +127,7 @@
   },
   "MultiImagesUpload": {
     "actions": {
-      "uploadMore": "Kliknij, aby przesłać więcej"
+      "uploadMore": "Kliknij lub przeciągnij, aby przesłać więcej"
     },
     "modal": {
       "complete": "Zakończ",
@@ -119,11 +137,17 @@
       "upload": "Prześlij obraz"
     },
     "placeholder": {
-      "primary": "Kliknij, aby przesłać obraz",
+      "primary": "Kliknij lub przeciągnij, aby przesłać obraz",
       "secondary": "Obsługuje wybór wielu obrazów"
     },
     "progress": {
       "uploadingWithCount": "{{completed}}/{{total}} przesłano"
+    },
+    "validation": {
+      "fileSizeExceeded": "Przekroczono limit rozmiaru pliku",
+      "fileSizeExceededDetail": "{{fileName}} ({{actualSize}}) przekracza maksymalny dozwolony rozmiar {{maxSize}}",
+      "fileSizeExceededMultiple": "{{count}} plików przekracza maksymalny dozwolony rozmiar {{maxSize}}: {{fileList}}",
+      "imageCountExceeded": "Przekroczono dopuszczalną liczbę obrazów"
     }
   },
   "OllamaSetupGuide": {
